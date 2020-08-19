@@ -14,7 +14,13 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
-app.use(require('./routes/usuario'));
+// app.use(require('./routes/usuario'));
+// app.use(require('./routes/login'));
+
+// Configuracion global de rutas - reemplaza lo de arriba
+app.use(require('./routes/index'));
+
+
 mongoose.connect(process.env.URLDB, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true },
     (err, res) => {
         // .then(() => console.log('Conectado a MongoDB...'))
@@ -25,5 +31,5 @@ mongoose.connect(process.env.URLDB, { useNewUrlParser: true, useCreateIndex: tru
 //mongoose.set('useCreateIndex', true);
 
 app.listen(process.env.PORT, () => {
-    console.log('Escuchando puerto', 3000);
+    console.log('Escuchando puerto', process.env.PORT);
 });

@@ -34,6 +34,20 @@ Aquí cubriremos varios temas como:
     -   Eliminación por estado en un campo de la colección
 
 
+## Seccion 10: Autenticacion de usuarios - JWT
+
+## Temas de la sección: 
+Aquí cubriremos varios temas como: 
+
+-   Introducción a los tokens
+-   JWT
+-   Login personalizado
+-   Protección de rutas vía token
+-   Leer payload del token sin la firma
+-   Tips importantes para POSTMan
+-   Despliegues en Heroku para pruebas en producción
+-   Uso de Middleware
+
 Recuerden Ejecutar ```npm install ``` para las librerias
 
 ## Ejemplo: opciones para arrancar el programa
