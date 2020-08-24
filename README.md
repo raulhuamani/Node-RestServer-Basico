@@ -61,6 +61,15 @@ Aquí cubriremos varios temas como:
 -   Uso del Google SignIn en el Front-End
 -   Crear usuarios personalizados en base a respuestas de Google
 
+## Seccion 12: Categorias y Productos
+
+## Temas de la sección: 
+-   CRUD de categorías y productos
+-   Relaciones
+-   Populate
+-   Búsquedas
+-   Despliegues a producción
+
 
 Recuerden Ejecutar ```npm install ``` para las librerias
 
